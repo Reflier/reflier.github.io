@@ -1,0 +1,237 @@
+*{margin: 0;padding: 0;}
+.box01{
+    width: 100%;
+    height: 910px;
+    background-image: url(image/bg01.png);
+    background-size: cover;
+}
+.box02{
+    width: 100%;
+    height: 1561px;
+    background-image: url(image/bg02.png);
+    background-repeat: repeat;
+}
+.tbox01{
+    width: 1120px;
+    height: 910px;
+    margin: 0 auto;
+}
+
+    .title {
+        color: white;
+        font-size: 90px;
+        text-align: left;
+        margin: 0;
+        padding-top: 592px;
+    }
+    .subtitle {
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+        font-size: 50px;
+        text-align: left;
+        padding: 10px;
+        margin: 0;
+        width: fit-content;
+    
+    }
+
+    .overlay-image {
+        max-width: 120%;
+        max-height: 120%;
+        height: auto;
+        position: absolute;
+        margin-top: 80px;
+        margin-left: 160px;
+        animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes float {
+        0% {
+            transform: translateY(0); 
+        }
+        50% {
+            transform: translateY(-20px); 
+        }
+        100% {
+            transform: translateY(0); 
+        }
+    }
+
+    .overlay-image2{
+        position: absolute;
+        margin-top: 1100px;
+        margin-left: 300px;
+        
+    }
+
+    .overlay-image4{
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 350px;
+    }
+
+    .overlay-image5{
+        position: absolute;
+        margin-top: 1050px;
+        margin-left: 300px;
+    }
+
+
+    .tbox02{
+        position: absolute;
+        width: 1032px;
+        height: 297;
+        padding-top: 1217px;
+        position: relative;
+        text-align: left;
+        margin-left: 300px;
+        color: white;
+        line-height: 1.5;
+    }
+
+.box03{
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    height:900px;
+}
+
+.overlay-image3{
+    position: absolute;
+    margin-top: 76px;
+    margin-left: 320px;
+}
+.tbox03{
+    position: absolute;
+    color: white;
+    margin-top: 150px;
+    margin-left: 400px;
+
+}
+.tbox04{
+    position: absolute;
+    margin-top: 250px;
+    color: rgb(255, 255, 255);
+    margin-left: 400px;
+}
+.tbox05{
+    position: absolute;
+    text-align: center;
+    color: black;
+    margin-top: 400px;
+    margin-left: 560px;
+}
+.box04{
+    position: absolute;
+    width: 100%;
+    height: 1628px;
+    background-image: url(image/bg03.png);
+    margin: 0%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.image {
+        opacity: 0;
+        transition: opacity 1.5s;
+        width: 30%;
+        max-width: 250px;
+        margin-top: 0%;
+        margin-left: 500px;
+    }
+    .visible {
+        opacity: 1;
+    }
+    .spacer {
+        height: 100px; 
+    }
+
+    .image2 {
+        opacity: 0;
+        transition: opacity 1s;
+        width: 30%;
+        max-width: 250px;
+        margin-top: 0%;
+        margin-left: 950px;
+    }
+    .visible {
+        opacity: 1;
+    }
+    .spacer {
+        height: 100px; 
+    }
+
+.tbox06{
+position: absolute;
+margin-top: 140px;
+margin-left: 950px;
+
+}
+
+.tbox07{
+    position: absolute;
+margin-top: 500px;
+margin-left: 450px;
+text-align: right;
+}
+
+.box05{
+position: absolute;
+margin-top: 1435px;
+background-image: url(image/bg04.png);
+width: 100%;
+height: 2262px;
+
+
+}
+
+.button-container {
+    position: fixed; 
+    top: 10px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    z-index: 1000; 
+    white-space: nowrap;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 20px; 
+    color: white;
+    background-color: #203843;
+    text-decoration: none;
+    border-radius: 30px;
+    margin: 0px; 
+}
+
+.tbox08{
+    font-size: 80px;
+    color: white;
+    margin-top: 500px;
+    margin-left: 200px;
+}
+
+.tbox09{
+    text-align: center;
+    margin-top: 600px;
+    font-size: 20px;
+    line-height: 1.7;
+
+
+}
+
+.tbox10{
+    position: absolute;
+    font-size: 15px;
+    color: gray;
+    margin-top: 1350px;
+    margin-left: 645px;
+}
+.tbox11{
+    position: absolute;
+    text-align: center;
+    margin-top: 1533px;
+    margin-left: 750px;
+    color: gray;
+    font-size: 20px;
+}
